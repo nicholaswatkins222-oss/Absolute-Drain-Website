@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact Us | Absolute Drain Service LLC — Reno, NV</title>
+  <meta name="description" content="Contact Absolute Drain Service LLC for drain cleaning, sewer inspection, and emergency service in Reno, NV. Call (775) 322-2727 — available 24/7 for emergencies.">
+  <link rel="icon" type="image/png" href="Brand_assets/logo-icon.png">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- EMERGENCY BANNER -->
+<div class="emergency-banner" role="banner">
+  <div class="emergency-banner__inner">
+    <span class="emergency-banner__tag"><i class="fas fa-bolt"></i> 24/7 Emergency Service Available</span>
+    <a href="tel:7753222727" class="emergency-banner__phone"><i class="fas fa-phone"></i> (775) 322-2727</a>
+    <span class="emergency-banner__tag"><i class="fas fa-clock"></i> Avg. 1-2 Hr Response · Reno-Sparks</span>
+  </div>
+</div>
+
+<!-- NAVBAR -->
+<header class="navbar" role="navigation">
+  <div class="container navbar__inner">
+    <a href="index.html" class="navbar__logo" aria-label="Home">
+      <img src="Brand_assets/logo-icon.png" alt="Absolute Drain Service Logo">
+    </a>
+    <nav class="navbar__nav" aria-label="Primary">
+      <a href="index.html">Home</a>
+      <a href="services.html">Services</a>
+      <a href="about.html">About Us</a>
+      <a href="blog.html">Blog</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+    <span class="navbar__badge"><i class="fas fa-shield-halved"></i> Licensed &amp; Insured</span>
+    <a href="tel:7753222727" class="navbar__phone"><i class="fas fa-phone"></i> (775) 322-2727</a>
+    <a href="contact.html" class="btn btn-primary btn-sm">Free Quote</a>
+    <button class="navbar__hamburger" aria-label="Open menu" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</header>
+
+<!-- MOBILE MENU -->
+<div class="mobile-menu" role="dialog" aria-label="Mobile navigation" aria-modal="true">
+  <div class="mobile-menu__inner">
+    <button class="mobile-menu__close" aria-label="Close menu"><i class="fas fa-times"></i></button>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="services.html">Services</a>
+      <a href="about.html">About Us</a>
+      <a href="blog.html">Blog</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+    <div class="mobile-menu__footer">
+      <p>Available 24/7 for emergencies.</p>
+      <a href="tel:7753222727" class="mobile-menu__phone-big"><i class="fas fa-phone"></i> (775) 322-2727</a>
+      <a href="contact.html" class="btn btn-primary" style="width:100%;justify-content:center;">Get a Free Quote</a>
+    </div>
+  </div>
+</div>
+
+<!-- PAGE HERO -->
+<section class="page-hero" aria-label="Contact page header">
+  <div class="container page-hero__inner">
+    <div class="page-hero__breadcrumb">
+      <a href="index.html">Home</a>
+      <i class="fas fa-chevron-right"></i>
+      <span>Contact</span>
+    </div>
+    <h1 class="page-hero__title">Get in Touch</h1>
+    <p class="page-hero__subtitle">For emergencies, call us directly — we respond fast. For non-urgent inquiries or quotes, fill out the form below and we'll get back to you promptly.</p>
+  </div>
+</section>
+
+<!-- CONTACT SECTION -->
+<section class="section bg-white" aria-labelledby="contact-heading">
+  <div class="container">
+    <div class="contact-layout">
+
+      <!-- FORM -->
+      <div class="contact-form-wrap">
+        <h2 id="contact-heading">Request a Free Quote</h2>
+        <p>Tell us about your drain or sewer issue and we'll get back to you quickly with an assessment and quote.</p>
+        <form id="contact-form" novalidate>
+          <div class="form-row">
+            <div class="form-group">
+              <label class="form-label" for="full-name">Full Name <span>*</span></label>
+              <input class="form-input" type="text" id="full-name" name="full-name" placeholder="John Smith" required autocomplete="name">
+            </div>
+            <div class="form-group">
+              <label class="form-label" for="phone">Phone Number <span>*</span></label>
+              <input class="form-input" type="tel" id="phone" name="phone" placeholder="(775) 555-0100" required autocomplete="tel">
+            </div>
+          </div>
+          <div class="form-group">
+            <label class="form-label" for="email">Email Address <span>*</span></label>
+            <input class="form-input" type="email" id="email" name="email" placeholder="john@example.com" required autocomplete="email">
+          </div>
+          <div class="form-group">
+            <label class="form-label" for="address">Service Address</label>
+            <input class="form-input" type="text" id="address" name="address" placeholder="123 Main St, Reno, NV" autocomplete="street-address">
+          </div>
+          <div class="form-group">
+            <label class="form-label" for="service">Service Needed <span>*</span></label>
+            <select class="form-select" id="service" name="service" required>
+              <option value="" disabled selected>Select a service…</option>
+              <option value="drain-cleaning">Drain Cleaning / Snaking</option>
+              <option value="hydro-flush">Hydro Flush</option>
+              <option value="camera-inspection">Sewer Camera Inspection</option>
+              <option value="liner-installation">Liner Installation (Trenchless)</option>
+              <option value="root-x">Root X Treatment</option>
+              <option value="pipe-locating">Pipe Locating</option>
+              <option value="smoke-test">Smoke Testing</option>
+              <option value="object-removal">Object Removal</option>
+              <option value="emergency">Emergency Service</option>
+              <option value="not-sure">Not Sure — Need Diagnosis</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label class="form-label" for="urgency">How Urgent Is This?</label>
+            <select class="form-select" id="urgency" name="urgency">
+              <option value="" disabled selected>Select urgency…</option>
+              <option value="emergency">Emergency — Need Someone Now</option>
+              <option value="same-day">Same Day If Possible</option>
+              <option value="next-day">Within 1–2 Days</option>
+              <option value="this-week">This Week</option>
+              <option value="scheduling">Just Getting a Quote</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label class="form-label" for="message">Describe the Problem <span>*</span></label>
+            <textarea class="form-textarea" id="message" name="message" placeholder="Please describe what's happening — which drain(s) are affected, how long it's been going on, any unusual sounds or smells, etc. The more detail you provide, the better we can help." required></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary btn-lg form-submit">
+            <i class="fas fa-paper-plane"></i> Send My Request
+          </button>
+          <p style="font-size:.78rem;color:#9ca3af;margin-top:12px;text-align:center;">We typically respond within 1–2 hours during business hours. For emergencies, please call us directly at (775) 322-2727.</p>
+        </form>
+      </div>
+
+      <!-- INFO PANEL -->
+      <div class="contact-panel">
+
+        <div class="contact-info-card">
+          <h3 class="contact-info-card__title">Contact Information</h3>
+          <div class="contact-info-item">
+            <div class="contact-info-item__icon"><i class="fas fa-phone"></i></div>
+            <div>
+              <p class="contact-info-item__lbl">Phone</p>
+              <p class="contact-info-item__val"><a href="tel:7753222727">(775) 322-2727</a></p>
+            </div>
+          </div>
+          <div class="contact-info-item">
+            <div class="contact-info-item__icon"><i class="fas fa-envelope"></i></div>
+            <div>
+              <p class="contact-info-item__lbl">Email</p>
+              <p class="contact-info-item__val"><a href="mailto:AbsoluteDrain14@gmail.com">AbsoluteDrain14@gmail.com</a></p>
+            </div>
+          </div>
+          <div class="contact-info-item">
+            <div class="contact-info-item__icon"><i class="fas fa-location-dot"></i></div>
+            <div>
+              <p class="contact-info-item__lbl">Address</p>
+              <p class="contact-info-item__val">340 Western Road #11<br>Reno, NV 89506</p>
+            </div>
+          </div>
+          <div class="contact-info-item">
+            <div class="contact-info-item__icon"><i class="fas fa-clock"></i></div>
+            <div>
+              <p class="contact-info-item__lbl">Business Hours</p>
+              <p class="contact-info-item__val">
+                <table class="hours-table" style="margin-top:4px;">
+                  <tr><td>Monday</td><td class="hours-open">24 Hours</td></tr>
+                  <tr><td>Tuesday</td><td class="hours-open">24 Hours</td></tr>
+                  <tr><td>Wednesday</td><td class="hours-open">24 Hours</td></tr>
+                  <tr><td>Thursday</td><td class="hours-open">24 Hours</td></tr>
+                  <tr><td>Friday</td><td class="hours-open">24 Hours</td></tr>
+                  <tr><td>Saturday</td><td class="hours-open">24 Hours</td></tr>
+                  <tr><td>Sunday</td><td class="hours-emerg">Emergency Only</td></tr>
+                </table>
+              </p>
+            </div>
+          </div>
+          <div class="contact-info-item">
+            <div class="contact-info-item__icon"><i class="fas fa-shield-halved"></i></div>
+            <div>
+              <p class="contact-info-item__lbl">License</p>
+              <p class="contact-info-item__val">NV Contractor Lic. #0092658<br>Licensed · Bonded · Insured</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="emergency-box">
+          <div class="emergency-box__icon"><i class="fas fa-bolt"></i></div>
+          <h3 class="emergency-box__title">Drain Emergency?</h3>
+          <p class="emergency-box__text">Sewage backup, flooded basement, complete blockage — don't fill out a form. Call us right now. We're available 24/7 and typically arrive in 1–2 hours in the Reno-Sparks area.</p>
+          <a href="tel:7753222727" class="emergency-box__phone">
+            <i class="fas fa-phone"></i> (775) 322-2727
+          </a>
+        </div>
+
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- SERVICE AREAS -->
+<section class="section bg-off-white" aria-labelledby="contact-areas-heading">
+  <div class="container">
+    <div class="section-header centered">
+      <p class="section-label">Where We Serve</p>
+      <div class="section-divider c"></div>
+      <h2 class="section-title" id="contact-areas-heading">Our Service Area</h2>
+      <p class="section-subtitle">Based in Reno, we serve homeowners and businesses throughout Northern Nevada. Not sure if we cover your area? Just call us.</p>
+    </div>
+    <div class="areas-flex" role="list">
+      <span class="area-chip" role="listitem"><i class="fas fa-map-marker-alt"></i> Reno, NV</span>
+      <span class="area-chip" role="listitem"><i class="fas fa-map-marker-alt"></i> Sparks, NV</span>
+      <span class="area-chip" role="listitem"><i class="fas fa-map-marker-alt"></i> North Reno</span>
+      <span class="area-chip" role="listitem"><i class="fas fa-map-marker-alt"></i> South Reno</span>
+      <span class="area-chip" role="listitem"><i class="fas fa-map-marker-alt"></i> Sun Valley</span>
+      <span class="area-chip" role="listitem"><i class="fas fa-map-marker-alt"></i> Spanish Springs</span>
+      <span class="area-chip" role="listitem"><i class="fas fa-map-marker-alt"></i> Washoe Valley</span>
+      <span class="area-chip" role="listitem"><i class="fas fa-map-marker-alt"></i> Incline Village</span>
+      <span class="area-chip" role="listitem"><i class="fas fa-map-marker-alt"></i> Verdi, NV</span>
+      <span class="area-chip" role="listitem"><i class="fas fa-map-marker-alt"></i> Cold Springs</span>
+      <span class="area-chip" role="listitem"><i class="fas fa-map-marker-alt"></i> Fernley, NV</span>
+      <span class="area-chip" role="listitem"><i class="fas fa-map-marker-alt"></i> Northern Nevada</span>
+    </div>
+  </div>
+</section>
+
+<!-- MAP -->
+<section class="section-sm bg-white" aria-label="Location map">
+  <div class="container">
+    <div class="section-header">
+      <p class="section-label">Find Us</p>
+      <div class="section-divider"></div>
+      <h2 class="section-title">Our Location</h2>
+      <p class="section-subtitle">We're based at 340 Western Road #11, Reno, NV 89506 — and we come to you throughout Northern Nevada.</p>
+    </div>
+    <div class="map-placeholder" role="img" aria-label="Map showing our location at 340 Western Road, Reno NV">
+      <div class="map-placeholder__inner">
+        <i class="fas fa-map-location-dot"></i>
+        <p>340 Western Road #11, Reno, NV 89506</p>
+        <a href="https://maps.google.com/?q=340+Western+Road+Reno+NV+89506" target="_blank" rel="noopener" class="btn btn-outline" style="margin-top:12px;">
+          <i class="fas fa-external-link-alt"></i> Open in Google Maps
+        </a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- CTA BANNER -->
+<section class="cta-banner" aria-label="Call to action">
+  <div class="container">
+    <div class="cta-banner__inner">
+      <p class="cta-banner__label"><i class="fas fa-phone"></i>&nbsp; Available 24/7</p>
+      <h2 class="cta-banner__title">Don't Wait — Call Us Now</h2>
+      <p class="cta-banner__subtitle">For emergencies, same-day service, or to get a free quote — we're always just one call away.</p>
+      <div class="cta-banner__phone">
+        <i class="fas fa-phone"></i>
+        <a href="tel:7753222727" style="color:inherit;">(775) 322-2727</a>
+      </div>
+      <div class="cta-banner__actions">
+        <a href="tel:7753222727" class="btn btn-primary btn-lg"><i class="fas fa-phone"></i> Call Now</a>
+        <a href="services.html" class="btn btn-ghost btn-lg"><i class="fas fa-wrench"></i> View All Services</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer class="footer" aria-label="Site footer">
+  <div class="container">
+    <div class="footer__grid">
+      <div>
+        <div class="footer__logo">
+          <a href="index.html"><img src="Brand_assets/logo-words.png" alt="Absolute Drain Service LLC"></a>
+        </div>
+        <p class="footer__about">Reno's trusted family-owned drain and sewer service. Helping Northern Nevada families and businesses keep things flowing smoothly for over 20 years.</p>
+        <span class="footer__li-badge"><i class="fas fa-shield-halved"></i> Licensed · Bonded · Insured</span>
+        <div class="footer__social">
+          <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+          <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+          <a href="#" aria-label="Twitter"><i class="fab fa-x-twitter"></i></a>
+          <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+        </div>
+      </div>
+      <div>
+        <h3 class="footer__h">Quick Links</h3>
+        <ul class="footer__links">
+          <li><a href="index.html"><i class="fas fa-chevron-right"></i> Home</a></li>
+          <li><a href="services.html"><i class="fas fa-chevron-right"></i> Services</a></li>
+          <li><a href="about.html"><i class="fas fa-chevron-right"></i> About Us</a></li>
+          <li><a href="blog.html"><i class="fas fa-chevron-right"></i> Blog</a></li>
+          <li><a href="contact.html"><i class="fas fa-chevron-right"></i> Contact</a></li>
+        </ul>
+      </div>
+      <div>
+        <h3 class="footer__h">Our Services</h3>
+        <ul class="footer__links">
+          <li><a href="services.html#hydro-flush"><i class="fas fa-chevron-right"></i> Hydro Flush</a></li>
+          <li><a href="services.html#root-x"><i class="fas fa-chevron-right"></i> Root X Treatment</a></li>
+          <li><a href="services.html#liner"><i class="fas fa-chevron-right"></i> Liner Installation</a></li>
+          <li><a href="services.html#inspection"><i class="fas fa-chevron-right"></i> Camera Inspection</a></li>
+          <li><a href="services.html#snaking"><i class="fas fa-chevron-right"></i> Drain Cleaning</a></li>
+          <li><a href="services.html#smoke-test"><i class="fas fa-chevron-right"></i> Smoke Testing</a></li>
+        </ul>
+      </div>
+      <div>
+        <h3 class="footer__h">Contact Us</h3>
+        <div class="footer__contact-item">
+          <i class="fas fa-phone"></i>
+          <div><a href="tel:7753222727">(775) 322-2727</a></div>
+        </div>
+        <div class="footer__contact-item">
+          <i class="fas fa-envelope"></i>
+          <div><a href="mailto:AbsoluteDrain14@gmail.com">AbsoluteDrain14@gmail.com</a></div>
+        </div>
+        <div class="footer__contact-item">
+          <i class="fas fa-location-dot"></i>
+          <div>340 Western Road #11<br>Reno, NV 89506</div>
+        </div>
+        <div class="footer__contact-item">
+          <i class="fas fa-clock"></i>
+          <div>Mon–Sat: 24 Hours<br><span style="color:#f97316;font-weight:600;">24/7 Emergency Service</span></div>
+        </div>
+      </div>
+    </div>
+    <div class="footer__bottom">
+      <p class="footer__copy">&copy; 2026 Absolute Drain Service LLC. All rights reserved.</p>
+      <p class="footer__lic-txt"><i class="fas fa-shield-halved"></i> Licensed · Bonded · Insured &nbsp;|&nbsp; NV Contractor Lic. #0092658</p>
+    </div>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
